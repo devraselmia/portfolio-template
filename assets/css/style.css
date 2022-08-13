@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0C0A5D;
+    --secondery: #FF9442;
+    --white: #ffffff;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+p,a,span,small {
+    font-family: 'Nunito', sans-serif;
+}
+.fw-bolded {
+    font-weight:500 !important;
+}
+
+  .navigation {
+    background: url(/assets/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+.name-bold {
+    color: var(--secondery);
+    font-family: 'Poppins', sans-serif;
+}
